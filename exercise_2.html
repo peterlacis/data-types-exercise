@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		/*
+		* Exercise Two
+		* Why does the following output true? - a is a string with a value (so it treats as true)
+		// if undefined variable, it will not run
+		*/
+
+		var a = "false";
+		var b = true;
+
+		// "&&" is "and"
+		console.log (a && b);
+
+		console.log(typeof a);
+		console.log(typeof b);
+
+		/*
+		* Bonus Question: Why does (b && a) log "false"?
+		// because of how & works
+		// Short Circuiting:
+
+		//AND
+
+		// We return the first falsy value, or if there is no falsy value, we return the last truhthy value.
+
+		//OR
+
+		//We return the first truthy value, or if there is no truthy value, we return the last falsy value.
+		*/
+
+		var whatever = prompt("hey");
+
+		var input = whatever || "no input";
+
+
+
+
+
+	</script>
+</body>
+</html>

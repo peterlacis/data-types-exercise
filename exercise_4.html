@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		/*
+		* Exercise Four
+		* Here is a very simple graphing program which performs on a transform on a point.
+		* What are the *types* of x, y, z, a, and b?
+		*/
+
+		var x = 3;
+		console.log(typeof x); // number
+
+		var y = (x / 2) + 4;
+		console.log(typeof y); // number
+
+		var z = [x, y];
+
+		z[0] = z[0] + 2;
+		z[1] = z[1] + 2;
+
+		console.log(typeof z); // object
+		console.log(Array.isArray(z)); // array
+
+
+
+		var a = "x is " + z[0];
+		console.log(typeof a); // string
+
+		var b = "y is " + z[1];
+		console.log(typeof b); // string
+
+	</script>
+</body>
+</html>

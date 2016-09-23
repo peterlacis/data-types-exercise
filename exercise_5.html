@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var erty = "Erty:Seidohl:Jan11:CodeCraft";
+		
+		var dave = "Dave:Gray:Sep16:CodeCraft";
+		
+		var instructors = [erty.split(":"), dave.split(":")];
+
+		console.log(instructors[0] + " - " + instructors[1]);
+
+		var e_name = erty.slice(5,12);
+		var e_bday = erty.slice(13,18);
+
+		// console.log(e_name);
+		// console.log(e_bday);
+
+		var d_name = dave.slice(5,9);
+		var d_bday = dave.slice(10,15);
+
+
+		// console.log(d_name);
+		// console.log(e_bday);
+		
+		//TODO: console.log Erty and Dave's last name and birthday with a dash: "Name - Birthday"
+
+		console.log(e_name + " - " + e_bday + " " + d_name + " - " + d_bday);
+
+	</script>
+</body>
+</html>
